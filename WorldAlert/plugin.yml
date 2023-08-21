@@ -1,0 +1,23 @@
+name: WorldAlert
+version: 1.0
+main: nl.matthijspc.worldalert.Main
+description: Send an alert to all players
+author: Matthijs van de Kuilen
+website: https://www.spigotmc.org/resources/worldalert.25422/
+commands:
+    alert:
+        description: Send an world wide alert.
+        usage: Wrong usage! /<command>
+    worldalert:
+        description: Shows the plugin information
+        usage: Wrong usage! /<command>
+permissions:
+    WorldAlert.send:
+       description: The alert send permission
+       default: op
+    WorldAlert.receive:
+       description: The alert receive permission
+       default: true
+    WorldAlert.version:
+        description: Shows the plugin information
+        default: op

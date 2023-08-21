@@ -1,0 +1,10 @@
+name: HomeMadeRecipe
+version: 1.1
+main: nl.matthijspc.HomeMadeRecipe.Main
+author: Matthijs van de Kuilen
+prefix: HomeMadeRecipe
+description: Een plugin met custom recipes!
+commands:
+ hmr:
+  usage: /<command>
+  description: Get the version of HomeMadeRecipe.

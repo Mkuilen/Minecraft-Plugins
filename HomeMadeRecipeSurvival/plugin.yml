@@ -1,0 +1,13 @@
+name: HomeMadeRecipeSurvival
+version: 1.2
+main: nl.matthijspc.HomeMadeRecipeSurvival.Main
+author: Matthijs van de Kuilen
+prefix: HomeMadeRecipeSurvival
+description: This plugin add recipes for uncraftable items.
+commands:
+ hmrs:
+  usage: /<command>
+  description: Get the version of the plugin.
+ hmrs help:
+  usage: /<command> subcommand
+  description: Show all the commands for the plugin
